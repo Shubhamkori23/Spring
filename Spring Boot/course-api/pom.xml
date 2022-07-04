@@ -8,11 +8,11 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.shubh.springboot</groupId>
+	<groupId>com.shubh</groupId>
 	<artifactId>course-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Course API - Spring Boot</name>
-	<description>Course API project for Spring Boot</description>
+	<name>course-api</name>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -34,7 +34,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
 	</build>

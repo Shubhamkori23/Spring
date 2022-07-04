@@ -1,10 +1,10 @@
-package com.shubh.springboot;
+package com.shubh.springbootstarter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CourseApiSpringBootApplicationTests {
+class CourseApiApplicationTests {
 
 	@Test
 	void contextLoads() {
