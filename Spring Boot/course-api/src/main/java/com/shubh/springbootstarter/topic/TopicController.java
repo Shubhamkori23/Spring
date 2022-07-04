@@ -1,4 +1,4 @@
-package com.shubh.springbootstarter.controller;
+package com.shubh.springbootstarter.topic;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
