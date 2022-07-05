@@ -11,10 +11,8 @@ public class TopicController {
 
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {
-		return Arrays.asList(
-				new Topic ("spring", "Spring Framework", "Spring Framework Description"),
+		return Arrays.asList(new Topic("spring", "Spring Framework", "Spring Framework Description"),
 				new Topic("java", "Core Java", "Core Java Description"),
-				new Topic ("javascript", "JavaScript", "JavaScript Description")
-				);
+				new Topic("javascript", "JavaScript", "JavaScript Description"));
 	}
 }
