@@ -16,4 +16,9 @@ public class TopicController {
 	public List<Topic> getAllTopics() {
 		return topicService.getAllTopics();
 	}
+
+	public Topic getTopic(String id) {
+
+	}
+
 }
