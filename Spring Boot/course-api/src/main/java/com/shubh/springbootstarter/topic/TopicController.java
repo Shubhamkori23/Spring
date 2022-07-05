@@ -22,5 +22,4 @@ public class TopicController {
 	public Topic getTopic(@PathVariable String id) {
 		return topicService.getTopic(id);
 	}
-
 }
